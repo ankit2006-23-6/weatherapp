@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    border: none;
+
+
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weahter_header{
+    background-color: white;
+  
+}
+
+.weather_container{
+    background-color: white;
+    height: min-content;
+    padding: 40px;
+    width: 25%;
+    border-radius: 12px;
+    outline: none;
+}
+
+.search input{
+    background-color: lightblue;
+    width: 84%;
+    height: 35px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.search{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search button {
+    background-color: white;
+    font-size: 25px;
+    cursor: pointer;
+    
+
+}
+.search button i{
+    background-color: white;
+    font-size: 25px;
+
+}
+button i:hover{
+    background-color: gray;
+}
+
+.weather_img{
+    background-color: white;
+    width: 50%;
+    margin-left: 20%;
+}
+.weather_body{
+    background-color: white;
+}
+
+.temprature sup{
+    background-color: white;
+    
+    
+}
+.temprature {
+    background-color: white;
+    
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text{
+    background-color: white;
+    
+    font-size: 20px;
+    font-weight: 600;
+}
+.description{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.humidity{
+    background-color: white;
+}
+.weather_detail{
+    background-color: white;
+    margin-left: 15%;
+    margin-top: 10%;
+  
+    
+    
+    
+    
+}
+.humidity i  {
+    background-color: white;
+}
+.weather_info p{
+    background-color: white;
+    font-weight: 600;
+
+}
+#humidity{
+    font-size: 28px;
+    font-weight: 800;
+}
+.wind_speed{
+    background-color: white;
+}
+.wind_speed i{
+    font-size: 20px;
+    font-weight: 800;
+}
+.weather_info p{
+    background-color: white;
+    font-weight: 600;
+
+}
+#windspeed{
+    font-size: 28px;
+    font-weight: 800;
+}
+.humidity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20%;
+}
+.wind_speed{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 20%;
+}
+
